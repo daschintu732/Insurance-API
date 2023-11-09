@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Chintu@732
+    url: jdbc:mysql://localhost:3306/chin2db
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+      
+plan:
+  messages:
+    planSaveSucc: Plan Saved Successfully
+    planSaveFail: Plan Save Failed
+    planUpdateSucc: Plan Updated Successfully
+    planUpdateFail: Plan Update Failed
+    planDeleteSucc: Plan Deleted Successfully
+    planDeleteFail: Plan Delete Failed
+    planStatusChange: Plan Status Changed Successfully
+    planStatusChangeFail: Plan Status Change Failed
